@@ -1,5 +1,9 @@
-.div {
-  border: 1px solid red;
+div, p, h2 {
+  /*border: 1px solid red;*/
+}
+
+body, h1, h2, p {
+  margin: 0;
 }
 
 .link-color {
@@ -45,24 +49,19 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  border: 1px solid red;
   z-index: 3;
 }
 
 .header__title { /* TODO Проверить, почему "У" выходит за нижнюю границу блока */
-  display: flex;
   max-width: 730px;
   margin: 0 0 0 64px;
-  border: 1px solid red;
   z-index: 3;
   line-height: 96px;
   font-size: 106px;
   font-weight: bold;
-
 }
 
 .header__subtitle {
-  border: 1px solid red;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -78,7 +77,6 @@
 }
 
 .header__main-illustration {
-  border: 1px solid red;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -109,3 +107,55 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.description {
+  /*border: 1px solid red;*/
+  margin: 100px auto;
+  min-height: 500px; /* TODO Нужно ли min-height? */
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__brief_title {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
