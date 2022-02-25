@@ -303,15 +303,15 @@
 .footer {
   box-sizing: border-box;
   background-color: #1f1f1f;
-  height: 350px;
+  min-height: 350px;
   color: #fff;
   padding-top: 60px;
   padding-bottom: 40px;
   margin: 0;
+  display: flex;
 }
 
 .footer__columns {
-  height: 100%;
   width: 90%;
   margin: 0 auto;
   display: flex;
