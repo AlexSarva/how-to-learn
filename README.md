@@ -40,7 +40,7 @@ _Пожалуй Яндекс-Практикум - самая лучшая пла
 <br><br><br>
 <div align="left">
   <h3>Типографика</h3>
-  <img src="https://i.gifer.com/5RT4.gif" align="left" width="150" alt="">
+  <img src="https://i.pinimg.com/originals/59/bf/ee/59bfeeccb4dc93978ef3ebbc58e562c7.gif" align="left" width="150" alt="">
   <p>Типографика — это сложно. Большая часть вещей, на которые вы смотрите каждый день — это текст. Так что прежде чем обсуждать типографику, просто посмотрим на нее.</p>
 </div>
 <br><br><br>
