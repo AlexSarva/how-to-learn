@@ -8,6 +8,6 @@
   font-size: 0;
 }
 
-.cards__item:nth-of-type(3) {
+.cards__item:nth-child(3) {
   margin: 0;
 }

@@ -1,7 +1,6 @@
 .video {
-  margin: 100px auto 0;
+  margin: 100px auto -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-height: 440px;
 }
